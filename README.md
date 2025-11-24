@@ -35,8 +35,8 @@ api-farmacia/
 Instalação:
 
 1. Clone o repositório:
-git clone https://github.com/cristianoglbm/api-farmacia
-cd api-farmacia
+git clone https://github.com/VITORHUGORDM/API-FARMACIA_ATT.git
+cd API-FARMACIA_ATT
 
 2. Instale as dependências:
 npm install
