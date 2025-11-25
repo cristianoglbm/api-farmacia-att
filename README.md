@@ -37,6 +37,28 @@ npm install --save mysql2
 npm install --save-dev @types/node  
 ```
 
+Crie um .env com as seguintes informacoes:
+
+```sh
+# Porta do servidor
+PORT=4000
+
+# Configuração do MySQL (Prisma)
+DATABASE_URL="mysql://root:123456@127.0.0.1:3306/farmacia"
+
+# JWT
+JWT_SECRET="chave_super_secreta_que_voce_quiser"
+
+# SMTP (Recuperar senha)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=seuemail@gmail.com
+SMTP_PASS=sua_senha_do_app
+
+# URL do frontend para enviar link de redefinir senha
+FRONTEND_URL=http://localhost:3000
+```
+
 Inicie o servidor de desenvolvimento:
 
 ```sh
