@@ -1,10 +1,10 @@
 # API Fisioterapia
 
-Este projeto é uma API REST desenvolvida em Node.js e TypeScript, destinada a auxiliar o gerenciamento de pacientes e usuários para o curso de fisioterapia.
+Este projeto é uma API REST desenvolvida em Node.js e TypeScript, destinada a auxiliar o gerenciamento de pacientes e usuários para o curso de farmacia.
 
 ## Repositório Git
 
-O código-fonte deste projeto está hospedado no GitHub: https://github.com/Lads-iesgo/api-fisioterapia.git
+O código-fonte deste projeto está hospedado no GitHub: https://github.com/cristianoglbm/api-farmacia-att
 
 ## Tecnologias Utilizadas
 
@@ -43,7 +43,7 @@ Inicie o servidor de desenvolvimento:
 npm run dev
 ```
 
-O servidor será iniciado em http://localhost:3333 (ou na porta definida na variável de ambiente `PORT`).
+O servidor será iniciado em http://localhost:3000 (ou na porta definida na variável de ambiente `PORT`).
 
 ## Estrutura do Projeto
 
@@ -66,7 +66,7 @@ O servidor será iniciado em http://localhost:3333 (ou na porta definida na vari
 - `GET /usuario/:id` — Busca usuário por ID
 - `POST /usuario` — Cria um novo usuário
 - `PUT /usuario/:id` — Atualiza um usuário existente
-- `GET /usuario/fisioterapeutas` — Lista todos os usuários com perfil de fisioterapeuta/aluno
+- `GET /usuario/farmaceuticos` — Lista todos os usuários com perfil de farmaceutico/aluno
 
 ### Pacientes (`/paciente`)
 - `GET /paciente` — Lista todos os pacientes
@@ -95,7 +95,6 @@ O servidor será iniciado em http://localhost:3333 (ou na porta definida na vari
 ## Branches
 
 - **main**: Branch principal para versões estáveis.
-- **develop**: Branch para desenvolvimento em andamento.
 
 ## Contribuindo
 
@@ -104,7 +103,7 @@ Para contribuir com o projeto, siga estes passos:
 1. Crie uma nova branch a partir da develop:
 
    ```sh
-   git checkout develop
+   git checkout main
    git checkout -b sua-nova-branch
    ```
 
