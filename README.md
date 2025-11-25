@@ -40,7 +40,7 @@ cd api-farmacia-att
 npm install
 npm install --save mysql2
 npm install --save-dev @types/node
-                                                                                                                                                                                                                                                                                             npm install --save-dev @types/node                                                                                
+                                                                                                                                                                                                                                                                                                                                                                
 4. Configure o banco de dados no arquivo .env:
 DATABASE_URL="mysql://USUARIO:SENHA@HOST:PORT/NOME_BANCO"
 JWT_SECRET="sua_chave_secreta"
